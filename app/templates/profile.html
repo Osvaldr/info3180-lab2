@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block main %}
+<link href="{{ url_for('static', filename='css/app.css') }}" rel="stylesheet">
+<div id="main">
+    <div class="top">
+        <img src="{{url_for('static', filename='Annie.jpg')}}" />
+        <h2>Annie Hastur</h2> <br>
+        <p>
+            @anntibbs <br>
+            Noxus     <br>
+            {{date}}
+            
+        </p>
+    </div>
+    <div class="bot">
+        <p>
+            Dangerous, yet disarmingly precocious, I am a mage with immense pyrokinetic power.
+            Even in the shadows of the mountains north of Noxus, I am a magical outlier.
+            My natural affinity for fire manifested early in life through unpredictable, emotional outbursts, eventually I learned to control these tricks.
+            My best friend is my beloved teddy bear, Tibbers, as he is a fiery beast hellbent on destruction.
+            Lost in the perpetual innocence, I like wandering the dark forests, always looking for someone to play with.
+        </p>
+        <div> <!--use a list-->
+                <ul>
+                    <li>3k&emsp;&emsp;&emsp;&emsp;136&emsp;&emsp;&emsp;&emsp;448k</li>
+                </ul>
+                <ul>
+                    <li>Posts&emsp;&emsp;&emsp;&emsp;Following&emsp;&emsp;&emsp;&emsp;Followers</li>
+                <ul>
+            <h5 class="btnn">Follow</h5>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}

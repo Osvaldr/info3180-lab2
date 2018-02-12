@@ -1,3 +1,50 @@
 body {
     padding-top: 5rem;
 }
+
+#main{
+    border: thick solid;
+    border-radius: 15px;
+    margin:5% 25%;
+
+    
+}
+
+.top{
+    background-color: orange;
+    padding: 20px;
+    color:purple;
+    text-align: center;
+    border-radius:12px 12px 0px 0px;
+}
+
+.bot{
+    padding: 20px;
+    color:purple;
+    text-align: justify;
+
+}
+
+.btnn{
+    border-radius: 10px;
+    background-color: purple;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin:auto;
+    width: 150px;
+}
+
+li{
+    position:relative;
+    margin: 20px;
+    padding: 7px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+img{
+    border-radius: 50%;
+}
+
